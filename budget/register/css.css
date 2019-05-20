@@ -1,0 +1,51 @@
+#img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1
+{
+color: purple;
+font-size:30px;
+font-style: bold;
+}
+body
+{background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#ref
+{
+color:6633FF;
+font-style:italic;
+font-size:24px;
+
+}
+#log
+{
+color:white;
+font-style:italic;
+font-size:24px;
+
+}
+
+p1
+{
+color:black;
+font-size:44px;
+font-family:Times New Roman;
+font-style:italic;
+margin-bottom:15px;
+}
+
+p2
+{
+color:black;
+font-size:44px;
+font-family:Times New Roman;
+font-style:italic;
+margin-bottom:15px;
+}
