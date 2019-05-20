@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Form</title>
+</head>
+<body>
+
+<form name="f1" method="POST" action="applicant_database.php">
+<table align="center">
+
+<tr>
+<td>Applicant name</td>
+<td><input type="text" name="t1" required="required"></td>
+</tr>
+
+
+<tr>
+<td>Applicant user-ID</td>
+<td><input type="text" name="t2" required="required"></td>
+</tr>
+
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="t3" required="required"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="r1" value="Male">MALE
+<input type="radio" name="r1" value="Female">FEMALE</td>
+</tr>
+
+<tr>
+<td>Email Id</td>
+<td><input type="email" name="t4" required="required"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name="t5" rows=5 cols=18 required="required"></textarea></td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="number" name="t6" required="required"></td>
+</tr>
+
+<tr>
+<td>Qualification</td>
+<td><select name="c1">
+<option>---select----
+<option>Graduate
+<option>Post-Graduate
+<option>Under-Graduate
+</td>
+
+<tr>
+<td>University/Collage Name</td>
+<td><textarea name="t7" rows=5 cols=18 required="required"></textarea></td>
+</tr>
+</select></td>
+</tr>
+<tr>
+<td>Resume link:</td>
+<td><input type='text' name='t8' required='required'></td>
+</tr>
+
+
+<tr>
+<td colspan=2 align="center">
+<input type="submit" name="b1" value="Register">
+<input type="reset" name="b2" value="Clear">
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

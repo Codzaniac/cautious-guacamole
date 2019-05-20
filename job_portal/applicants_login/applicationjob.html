@@ -1,0 +1,80 @@
+<html>
+<head>
+<style type='text/css'>
+a
+{
+text-decoration:none;
+}
+table.table1
+{
+width:100%;
+}
+table.table1 td
+{
+height:auto;
+width:auto;
+padding:5px;
+font-size:28px;
+text-decoration:none;
+text-align:center;
+border:3px solid black;
+}
+table.table1 td:hover
+{
+height:auto;
+width:auto;
+font-size:30px;
+text-decoration:none;
+text-align:center;
+border:3px solid red;
+background-color:yellow;
+}
+table.table2 td
+{
+font-family:arial;
+font-size:28px;
+border:3px solid black; 
+}
+table.table2 input
+{
+height:auto;
+font-size:28px;
+width:auto;
+color:red;
+}
+</style>
+
+</head>
+
+<body>
+<form name='f1' method='POST' action='applicationjob.php'>
+<center><img src="gitam-logo.png" height=200px width=600px ></img></center>
+<table class="table1">
+<tr>
+<td><a href="http://localhost/job_portal/applicants_login/applicants_homepage.php">Home</a></td>
+<td><a href="http://localhost/job_portal/applicants_login/viewjobs.php">view jobs</a></td>
+<td><a href="http://localhost/job_portal/applicants_login/applicationjob.html">Apply</a></td>
+
+<td><a href="http://localhost/job_portal/applicants_login/checkjobstatus.php">check job status</a></td>
+<td><a href="http://localhost/job_portal/applicants_login/myinformation.php">My information</a></td>
+<td><a href="http://localhost/job_portal/welcome/">Logout</a></td>
+</tr>
+</table>
+<table class="table2" align=center>
+<tr>
+<td>Enter Job ID:</td>
+<td><input type=text name='t1'required='required'></td>
+</tr>
+<tr>
+<td>Enter Your Applicant ID:</td>
+<td><input type='text' name='t2' required='required'></td>
+</tr>
+<tr>
+<td colspan='2' align=center>
+<input type='submit' name='b1' value='apply'>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
